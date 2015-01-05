@@ -3,19 +3,19 @@
 2 info using npm@1.4.28
 3 info using node@v0.10.35
 4 verbose linkPkg /Users/administrator/Desktop/greet
-5 error Failed to parse json
-5 error Unexpected string
-6 error File: /Users/administrator/Desktop/greet/package.json
-7 error Failed to parse package.json data.
-7 error package.json must be actual JSON, not just JavaScript.
-7 error
-7 error This is not a bug in npm.
-7 error Tell the package author to fix their package.json file. JSON.parse
-8 error System Darwin 14.0.0
-9 error command "node" "/usr/local/bin/npm" "link"
-10 error cwd /Users/administrator/Desktop/greet
-11 error node -v v0.10.35
-12 error npm -v 1.4.28
-13 error file /Users/administrator/Desktop/greet/package.json
-14 error code EJSONPARSE
-15 verbose exit [ 1, true ]
+5 error Error: EACCES, unlink '/usr/local/lib/node_modules/greet'
+5 error  { [Error: EACCES, unlink '/usr/local/lib/node_modules/greet']
+5 error   errno: 3,
+5 error   code: 'EACCES',
+5 error   path: '/usr/local/lib/node_modules/greet' }
+6 error Please try running this command again as root/Administrator.
+7 error System Darwin 14.0.0
+8 error command "node" "/usr/local/bin/npm" "link"
+9 error cwd /Users/administrator/Desktop/greet
+10 error node -v v0.10.35
+11 error npm -v 1.4.28
+12 error path /usr/local/lib/node_modules/greet
+13 error code EACCES
+14 error errno 3
+15 error stack Error: EACCES, unlink '/usr/local/lib/node_modules/greet'
+16 verbose exit [ 3, true ]
