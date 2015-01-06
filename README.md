@@ -1,4 +1,4 @@
-fork2-node-greet
+node-greet
 ================
 
 NodeJs training
